@@ -36,5 +36,12 @@ print(word[-2]) #second last character
 
 #Slicing
 #Slicing allows you to obtain substring:
-print(word[2:4])
-print(word[3:5])
+print(word[2:4]) # characters from position 0 (included) to 2 (excluded)
+print(word[3:5]) # characters from position 2 (included) to 5 (excluded)
+# Note how the start is always included, and the end always excluded.
+print(word[:2] + word[2:])
+print(word[:4])
+
+print(len(word))
+#strings Functions :: 
+# https://docs.python.org/3.8/library/stdtypes.html#textseq
